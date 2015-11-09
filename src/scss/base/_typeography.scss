@@ -15,6 +15,7 @@ h2 {
   color: $black;
   text-transform: uppercase;
   letter-spacing: 5px;
+  margin-bottom: 2rem;
 }
 
 h3 {
@@ -22,16 +23,20 @@ h3 {
   font-size: 1.5rem;
   font-weight: normal;
   font-style: normal;
+  color: $black;
   text-transform: uppercase;
+  line-height: 1.5;
 }
 
 h4 {
   font-family: $font-family--primary;
   font-size: 1rem;
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
   color: $black;
-  text-transform: uppercase;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
 }
 
 h5 {
@@ -48,6 +53,7 @@ p {
   font-size: 1rem;
   font-weight: normal;
   font-style: normal;
+  color: $grey;
   margin-bottom: 1rem;
   line-height: 1.5;
 }
@@ -60,4 +66,8 @@ a {
 
 a:hover {
   color: $blue;
+}
+
+.callout {
+  color: $black;
 }

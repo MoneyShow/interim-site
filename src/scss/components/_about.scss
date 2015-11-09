@@ -3,8 +3,8 @@
 
   border-radius: 999px;
   background: red;
-  width: 300px + $border-width;
-  height: 300px + $border-width;
+  width: 400px + $border-width;
+  height: 400px + $border-width;
   display: block;
   overflow: hidden;
   border: $border-width solid $white;
@@ -15,4 +15,27 @@
   @include centerHorizontal();
 
   max-width: none;
+}
+
+.about__header {
+  margin-bottom: 2rem;
+}
+
+.about__show-details {
+  padding-left: 1rem;
+  border-left: 4px solid $blue;
+}
+
+.about__date {
+  margin-bottom: 0;
+}
+
+// highlights
+
+.about-highlights {
+  margin-top: 3rem;
+}
+
+.about-highlights__ico {
+  margin-bottom: 1rem;
 }

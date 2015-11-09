@@ -884,22 +884,27 @@ h2 {
   font-style: normal;
   color: #444444;
   text-transform: uppercase;
-  letter-spacing: 5px; }
+  letter-spacing: 5px;
+  margin-bottom: 2rem; }
 
 h3 {
   font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
   font-weight: normal;
   font-style: normal;
-  text-transform: uppercase; }
+  color: #444444;
+  text-transform: uppercase;
+  line-height: 1.5; }
 
 h4 {
   font-family: "Lato", Arial, Helvetica, sans-serif;
   font-size: 1rem;
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
   color: #444444;
-  text-transform: uppercase; }
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  letter-spacing: 1px; }
 
 h5 {
   font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
@@ -914,6 +919,7 @@ p {
   font-size: 1rem;
   font-weight: normal;
   font-style: normal;
+  color: #777777;
   margin-bottom: 1rem;
   line-height: 1.5; }
 
@@ -923,7 +929,10 @@ a {
   color: #777777; }
 
 a:hover {
-  color: #28ABE3; }
+  color: #4374B5; }
+
+.callout {
+  color: #444444; }
 
 .btn, .btn--primary {
   font-family: "Lato", Arial, Helvetica, sans-serif;
@@ -936,16 +945,16 @@ a:hover {
   text-transform: uppercase; }
 
 .btn--primary {
-  background: #28ABE3;
+  background: #4374B5;
   color: #FFFFFF;
-  border-bottom-color: #0d4b65; }
+  border-bottom-color: #1a2c45; }
 
 body {
   font-family: "Lato", Arial, Helvetica, sans-serif; }
 
 .block {
-  margin-top: 3rem;
-  margin-bottom: 3rem; }
+  margin-top: 6rem;
+  margin-bottom: 6rem; }
 
 .hero--wrapper {
   background: url("../img/hero-home.png") no-repeat;
@@ -995,8 +1004,8 @@ body {
 .about__img--wrapper {
   border-radius: 999px;
   background: red;
-  width: 315px;
-  height: 315px;
+  width: 415px;
+  height: 415px;
   display: block;
   overflow: hidden;
   border: 15px solid #FFFFFF;
@@ -1009,3 +1018,19 @@ body {
   -moz-transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   max-width: none; }
+
+.about__header {
+  margin-bottom: 2rem; }
+
+.about__show-details {
+  padding-left: 1rem;
+  border-left: 4px solid #4374B5; }
+
+.about__date {
+  margin-bottom: 0; }
+
+.about-highlights {
+  margin-top: 3rem; }
+
+.about-highlights__ico {
+  margin-bottom: 1rem; }
