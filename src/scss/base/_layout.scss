@@ -3,6 +3,10 @@ body {
 }
 
 .block {
-  margin-top: $block__spacing;
-  margin-bottom: $block__spacing;
+  padding-top: $block__spacing;
+  padding-bottom: $block__spacing;
+}
+
+.block__heading {
+  text-align: center;
 }

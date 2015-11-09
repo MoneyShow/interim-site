@@ -1,0 +1,24 @@
+.speakers--wrapper {
+  background: $alabaster;
+  height: 1000px;
+}
+
+.speaker-list__listing {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.speaker-list__img {
+  width: $speaker-list__img-size - $speaker-list__img-margin;
+  float: left;
+  margin-right: $speaker-list__img-margin;
+}
+
+.speaker-list__details {
+  width: 100% - $speaker-list__img-size;
+  float: right;
+}
+
+.speaker-list__company {
+  margin-bottom: 1rem;
+}

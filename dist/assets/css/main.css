@@ -885,7 +885,7 @@ h2 {
   color: #444444;
   text-transform: uppercase;
   letter-spacing: 5px;
-  margin-bottom: 2rem; }
+  margin-bottom: 4rem; }
 
 h3 {
   font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
@@ -902,16 +902,15 @@ h4 {
   font-weight: bold;
   font-style: normal;
   color: #444444;
-  margin-bottom: 1rem;
   line-height: 1.5;
   letter-spacing: 1px; }
 
 h5 {
-  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
   font-size: .875rem;
   font-style: normal;
   font-weight: normal;
-  color: #444444;
+  color: #777777;
   text-transform: uppercase; }
 
 p {
@@ -953,8 +952,11 @@ body {
   font-family: "Lato", Arial, Helvetica, sans-serif; }
 
 .block {
-  margin-top: 6rem;
-  margin-bottom: 6rem; }
+  padding-top: 6rem;
+  padding-bottom: 6rem; }
+
+.block__heading {
+  text-align: center; }
 
 .hero--wrapper {
   background: url("../img/hero-home.png") no-repeat;
@@ -1022,6 +1024,9 @@ body {
 .about__header {
   margin-bottom: 2rem; }
 
+.about__heading {
+  margin-bottom: 2rem; }
+
 .about__show-details {
   padding-left: 1rem;
   border-left: 4px solid #4374B5; }
@@ -1033,4 +1038,24 @@ body {
   margin-top: 3rem; }
 
 .about-highlights__ico {
+  margin-bottom: 1rem; }
+
+.speakers--wrapper {
+  background: #FBFBFB;
+  height: 1000px; }
+
+.speaker-list__listing {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.speaker-list__img {
+  width: 35%;
+  float: left;
+  margin-right: 5%; }
+
+.speaker-list__details {
+  width: 60%;
+  float: right; }
+
+.speaker-list__company {
   margin-bottom: 1rem; }

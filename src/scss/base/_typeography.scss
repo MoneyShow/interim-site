@@ -15,7 +15,7 @@ h2 {
   color: $black;
   text-transform: uppercase;
   letter-spacing: 5px;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 h3 {
@@ -34,17 +34,16 @@ h4 {
   font-weight: bold;
   font-style: normal;
   color: $black;
-  margin-bottom: 1rem;
   line-height: 1.5;
   letter-spacing: 1px;
 }
 
 h5 {
-  font-family: $font-family--secondary;
+  font-family: $font-family--primary;
   font-size: .875rem;
   font-style: normal;
   font-weight: normal;
-  color: $black;
+  color: $grey;
   text-transform: uppercase;
 }
 
