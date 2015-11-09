@@ -31,3 +31,11 @@
   -moz-transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
 }
+
+@mixin centerHorizontal() {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+}
