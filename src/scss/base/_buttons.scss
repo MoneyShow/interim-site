@@ -1,12 +1,9 @@
 .btn {
   font-family: $font-family--primary;
-  padding: 1rem 3rem;
-  border-radius: 5px;
-  border-bottom-style: solid;
-  border-bottom-width: 3px;
   margin: .5rem 0;
   display: inline-block;
   text-transform: uppercase;
+  padding: 1rem 3rem;
 }
 
 .btn--primary {
@@ -15,5 +12,21 @@
   background: $blue;
   color: $white;
   border-bottom-color: darken($blue, 30%);
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-radius: 5px;
+}
 
+.btn-secondary {
+  @extend .btn;
+
+  color: $grey;
+  margin: 2rem 0;
+  border-color: $grey;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.btn-secondary:hover {
+  border-color: $blue;
 }
