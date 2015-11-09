@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,300,400italic,600,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,400italic,900);
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -871,16 +872,18 @@ input[type=button] {
 h1 {
   font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
   font-size: 3rem;
-  text-transform: uppercase;
   font-weight: bold;
-  font-style: normal; }
+  font-style: normal;
+  color: #444444;
+  text-transform: uppercase; }
 
 h2 {
   font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
   font-size: 2rem;
-  text-transform: uppercase;
   font-weight: normal;
   font-style: normal;
+  color: #444444;
+  text-transform: uppercase;
   letter-spacing: 5px; }
 
 h3 {
@@ -891,10 +894,11 @@ h3 {
   text-transform: uppercase; }
 
 h4 {
-  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: normal;
   font-style: normal;
+  color: #444444;
   text-transform: uppercase; }
 
 h5 {
@@ -902,10 +906,11 @@ h5 {
   font-size: .875rem;
   font-style: normal;
   font-weight: normal;
+  color: #444444;
   text-transform: uppercase; }
 
 p {
-  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: normal;
   font-style: normal;
@@ -921,7 +926,7 @@ a:hover {
   color: #28ABE3; }
 
 .btn, .btn--primary {
-  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
   padding: 1rem 3rem;
   border-radius: 5px;
   border-bottom-style: solid;
@@ -936,7 +941,7 @@ a:hover {
   border-bottom-color: #0d4b65; }
 
 body {
-  font-family: "Josefin Sans", Arial, Helvetica, sans-serif; }
+  font-family: "Lato", Arial, Helvetica, sans-serif; }
 
 .block {
   margin-top: 3rem;
