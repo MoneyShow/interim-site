@@ -1,0 +1,19 @@
+.btn {
+  font-family: $font-family--sans-serif;
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  margin: .5rem 0;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.btn--primary {
+  @extend .btn;
+
+  background: $blue;
+  color: $white;
+  border-bottom-color: darken($blue, 30%);
+
+}
