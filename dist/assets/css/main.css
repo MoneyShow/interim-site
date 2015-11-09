@@ -1047,6 +1047,9 @@ body {
 .speaker-list__listing {
   margin-top: 2rem;
   margin-bottom: 2rem; }
+  @media (max-width: 991px) {
+    .speaker-list__listing {
+      display: inline-block; } }
 
 .speaker-list__img {
   width: 35%;

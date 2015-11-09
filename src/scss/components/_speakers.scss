@@ -6,6 +6,10 @@
 .speaker-list__listing {
   margin-top: 2rem;
   margin-bottom: 2rem;
+
+  @include breakpointSmallerThan($breakpoint--large) {
+    display: inline-block;
+  }
 }
 
 .speaker-list__img {
