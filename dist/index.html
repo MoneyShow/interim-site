@@ -6,7 +6,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="assets/css/main.css">
-
+  <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.7/slick-theme.css"/>
 </head>
 <body>
   <header>
@@ -114,7 +115,70 @@
       <div class="cta--wrapper">
         <a href="#" class="btn-secondary">view all speakers</a>
       </div>
-    </div> <!-- end container -->
+    </div><!-- end container -->
   </section>
+  <section class="block events--wrapper row">
+    <div class="container">
+      <h2 class="block__heading">upcoming events</h2>
+      <div class="col-md-6">
+        <div class="js-event-slider event-slider--wrapper">
+          <div class="event-slider__slide">
+            <img class="event-slider__img" src="assets/img/slide-01.png" alt="slide-img">
+          </div>
+          <div class="event-slider__slide">
+            <img class="event-slider__img" src="assets/img/slide-02.png" alt="slide-img">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <ul class="show-list">
+          <li class="show-list__listing">
+            <div class="show-list__date" role="moneyshow">
+              <p class="show-list__month">December</p>
+              <p class="show-list__day">14</p>
+            </div>
+            <div class="show-list__details">
+              <h4 class="show-list__title">world moneyshow las vegas</h4>
+              <p class="show-list__info">December 14 - 21, 2015</p>
+              <p class="show-list__info">Caesar’s Palace Convention Center</p>
+            </div>
+          </li>
+          <li class="show-list__listing">
+            <div class="show-list__date" role="moneyshow">
+              <p class="show-list__month">November</p>
+              <p class="show-list__day">21</p>
+            </div>
+            <div class="show-list__details">
+              <h4 class="show-list__title">world moneyshow toronto</h4>
+              <p class="show-list__info">December 14 - 21, 2015</p>
+              <p class="show-list__info">Caesar’s Palace Convention Center</p>
+            </div>
+          </li>
+          <li class="show-list__listing">
+            <div class="show-list__date" role="traders">
+              <p class="show-list__month">March</p>
+              <p class="show-list__day">09</p>
+            </div>
+            <div class="show-list__details">
+              <h4 class="show-list__title">world moneyshow toronto</h4>
+              <p class="show-list__info">December 14 - 21, 2015</p>
+              <p class="show-list__info">Caesar’s Palace Convention Center</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.js-event-slider').slick({
+        autoplay: true,
+        dots: true,
+        arrows: false
+      });
+    });
+  </script>
 </body>
 </html>

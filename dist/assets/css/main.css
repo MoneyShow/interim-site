@@ -1075,3 +1075,53 @@ body {
 
 .speaker-list__company {
   margin-bottom: 1rem; }
+
+.events--wrapper {
+  background: url("../img/events-bg.png") #FFFFFF no-repeat top center; }
+
+.event-slider--wrapper {
+  border: 10px solid #FFFFFF;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3); }
+
+.event-slider__img {
+  width: 100%; }
+
+.show-list__listing {
+  margin-bottom: 2rem; }
+  .show-list__listing:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.show-list__date, .show-list__date[role="moneyshow"], .show-list__date[role="traders"] {
+  width: 25%;
+  float: left;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  border-right-width: 4px;
+  border-right-style: solid;
+  text-align: center; }
+
+.show-list__date[role="moneyshow"] {
+  border-right-color: #4374B5; }
+
+.show-list__date[role="traders"] {
+  border-right-color: #DA4624; }
+
+.show-list__month {
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+  color: #444444; }
+
+.show-list__day {
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  color: #444444;
+  margin: 0;
+  line-height: 1; }
+
+.show-list__title {
+  text-transform: capitalize;
+  margin-bottom: .75rem; }
+
+.show-list__info {
+  margin-bottom: 0; }

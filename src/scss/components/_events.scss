@@ -1,0 +1,62 @@
+.events--wrapper {
+  background: url('../img/events-bg.png') $white no-repeat top center;
+}
+
+.event-slider--wrapper {
+  border: 10px solid $white;
+  box-shadow: 0px 0px 50px rgba(0,0,0,0.3);
+}
+
+.event-slider__img {
+  width: 100%;
+}
+
+.show-list__listing {
+  @include clearfix();
+
+  margin-bottom: 2rem;
+}
+
+.show-list__date {
+  width: 25%;
+  float: left;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  border-right-width: 4px;
+  border-right-style: solid;
+  text-align: center;
+}
+
+.show-list__date[role="moneyshow"] {
+  @extend .show-list__date;
+
+  border-right-color: $blue;
+}
+
+.show-list__date[role="traders"] {
+  @extend .show-list__date;
+
+  border-right-color: $red;
+}
+
+.show-list__month {
+  font-family: $font-family--secondary;
+  color: $black;
+}
+
+.show-list__day {
+  font-family: $font-family--secondary;
+  font-size: 3rem;
+  color: $black;
+  margin: 0;
+  line-height: 1;
+}
+
+.show-list__title {
+  text-transform: capitalize;
+  margin-bottom: .75rem;
+}
+
+.show-list__info {
+  margin-bottom: 0;
+}
