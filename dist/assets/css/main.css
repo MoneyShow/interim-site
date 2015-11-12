@@ -871,7 +871,7 @@ input[type=button] {
 
 h1 {
   font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   font-style: normal;
   color: #444444;
@@ -964,6 +964,18 @@ body {
   padding-top: 6rem;
   padding-bottom: 6rem; }
 
+@media (max-width: 767px) {
+  .hidden--sm {
+    display: none; } }
+
+@media (max-width: 991px) {
+  .hidden--md {
+    display: none; } }
+
+@media (min-width: 768px) {
+  .hidden--lg {
+    display: none; } }
+
 .hero--wrapper {
   background: url("../img/hero-home.png") no-repeat;
   background-attachment: fixed;
@@ -976,7 +988,7 @@ body {
   position: relative;
   z-index: 10; }
 
-.hero__texture {
+.hero__texture, .register__texture {
   background: url("../img/texture-hero.png") repeat top center;
   width: 100%;
   height: 100%;
@@ -985,10 +997,10 @@ body {
   left: 0;
   z-index: 0; }
 
-.hero__heading {
+.hero__heading, .register-header__heading {
   color: #FFFFFF; }
 
-.hero__detail {
+.hero__detail, .register__detail {
   color: #FFFFFF; }
 
 .navbar {
@@ -1052,6 +1064,9 @@ body {
 .speakers {
   background: #FBFBFB; }
 
+.speakers-header {
+  margin-bottom: 4rem; }
+
 .speakers-header__heading {
   text-align: center; }
 
@@ -1076,6 +1091,12 @@ body {
 
 .events {
   background: url("../img/events-bg.png") #FFFFFF no-repeat top center; }
+
+.events-header {
+  margin-bottom: 4rem; }
+  @media (max-width: 991px) {
+    .events-header {
+      margin-bottom: 2rem; } }
 
 .events-header__heading {
   text-align: center; }
@@ -1133,3 +1154,32 @@ body {
 .sponsors-header {
   text-align: center;
   margin-bottom: 4rem; }
+  @media (max-width: 991px) {
+    .sponsors-header {
+      margin-bottom: 1rem; } }
+
+.sponsors-header__detail {
+  width: 60%;
+  margin: 0 auto; }
+
+.sponsors-header__heading {
+  margin-bottom: 1rem; }
+
+.sponsors-list__listing {
+  text-align: center; }
+  @media (max-width: 991px) {
+    .sponsors-list__listing {
+      margin: 3rem 0; } }
+
+.register {
+  background: url("../img/register-bg.png") no-repeat top center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  text-align: center; }
+
+.register-content {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10; }

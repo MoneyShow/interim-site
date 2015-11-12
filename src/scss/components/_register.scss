@@ -1,0 +1,26 @@
+.register {
+  background: url('../img/register-bg.png') no-repeat top center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+.register-content {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+
+.register__texture {
+  @extend .hero__texture;
+}
+
+.register-header__heading {
+  @extend .hero__heading;
+}
+
+.register__detail {
+  @extend .hero__detail;
+}

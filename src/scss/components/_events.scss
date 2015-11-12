@@ -2,6 +2,16 @@
   background: url('../img/events-bg.png') $white no-repeat top center;
 }
 
+.events-header {
+  margin-bottom: $block-header__margin;
+
+  @include breakpointSmallerThan($breakpoint--large) {
+    @if ($block-header__margin > 2) {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
 .events-header__heading {
   text-align: center;
 }

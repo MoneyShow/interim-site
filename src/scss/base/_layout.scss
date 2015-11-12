@@ -6,3 +6,21 @@ body {
   padding-top: $block__spacing;
   padding-bottom: $block__spacing;
 }
+
+.hidden--sm {
+  @include breakpointSmallerThan($breakpoint--medium) {
+    display: none;
+  }
+}
+
+.hidden--md {
+  @include breakpointSmallerThan($breakpoint--large) {
+    display: none;
+  }
+}
+
+.hidden--lg {
+  @include breakpointLargerThan($breakpoint--medium) {
+    display: none;
+  }
+}

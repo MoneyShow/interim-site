@@ -22,7 +22,11 @@
 }
 
 .about-header__heading {
-  margin-bottom: 2rem;
+  @if ($block-header__margin > 2) {
+    margin-bottom: 2rem;
+  } @else {
+    margin-bottom: $block-header__margin;
+  }
 }
 
 .about-header__show-details {
