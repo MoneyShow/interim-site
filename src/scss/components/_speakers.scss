@@ -1,6 +1,9 @@
-.speakers--wrapper {
+.speakers {
   background: $alabaster;
-  height: 1000px;
+}
+
+.speakers-header__heading {
+  text-align: center;
 }
 
 .speaker-list__listing {

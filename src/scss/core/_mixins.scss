@@ -47,3 +47,10 @@
   -moz-transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
 }
+
+@mixin gradient($startVal, $endVal) {
+  background: -webkit-linear-gradient($startVal, $endVal);
+  background: -o-linear-gradient($startVal, $endVal);
+  background: -moz-linear-gradient($startVal, $endVal);
+  background: linear-gradient($startVal, $endVal);
+}

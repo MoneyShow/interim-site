@@ -33,23 +33,23 @@
       </ul>
     </nav>
   </header>
-  <section class="block about--wrapper" id="about">
+  <section class="block about" id="about">
     <div class="container">
       <div class="about-info row">
         <div class="col-md-6">
-          <div class="about__img--wrapper">
-            <img src="http://cdn.na16.netdna-cdn.com/wp-content/uploads/2015/01/aaron-rodgers.jpg" alt="about-img" class="about__img">
+          <div class="about-info__img--wrapper">
+            <img class="about-info__img" src="assets/img/about-featured.png" alt="about-img">
           </div>
         </div>
         <div class="col-md-6">
-          <div class="about__header">
-            <h2 class="about__heading">about the show</h2>
-            <div class="about__show-details">
-              <h4 class="about__date">November 19-21, 2015</h4>
-              <h4 class="about__venue">Caesar's Palace</h4>
+          <div class="about-header">
+            <h2 class="about-header__heading">about the show</h2>
+            <div class="about-header__show-details">
+              <h4 class="about-header__date">November 19-21, 2015</h4>
+              <h4 class="about-header__venue">Caesar's Palace</h4>
             </div>
           </div>
-          <div class="about__content">
+          <div class="about-content">
             <p class="callout">Think of us like your library.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat numquam dolor amet saepe sapiente debitis, ipsam architecto dicta. Consectetur ullam distinctio non excepturi temporibus, vel ea laboriosam ad aperiam iste!</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat numquam dolor amet saepe sapiente debitis, ipsam architecto dicta. Consectetur ullam distinctio non excepturi temporibus, vel ea laboriosam ad aperiam iste!</p>
@@ -75,12 +75,14 @@
       </div>
     </div> <!-- end container -->
   </section>
-  <section class="block speakers--wrapper" id="speakers">
+  <section class="block speakers" id="speakers">
     <div class="container">
-      <h2 class="block__heading">meet the speakers</h2>
-      <div class="speaker-list--wrapper row">
+      <div class="speakers-header">
+        <h2 class="speakers-header__heading">meet the speakers</h2>
+      </div>
+      <div class="speaker-list row">
         <div class="speaker-list__listing col-md-6">
-          <img src="assets/img/speaker-01.png" alt="speaker-img" class="speaker-list__img">
+          <img class="speaker-list__img" src="assets/img/speaker-01.png" alt="speaker-img">
           <div class="speaker-list__details">
             <h4 class="speaker-list__heading">Speaker Name</h4>
             <h5 class="speaker-list__company">Company</h5>
@@ -88,7 +90,7 @@
           </div>
         </div>
         <div class="speaker-list__listing col-md-6">
-          <img src="assets/img/speaker-01.png" alt="speaker-img" class="speaker-list__img">
+          <img class="speaker-list__img" src="assets/img/speaker-01.png" alt="speaker-img">
           <div class="speaker-list__details">
             <h4 class="speaker-list__heading">Speaker Name</h4>
             <h5 class="speaker-list__company">Company</h5>
@@ -96,7 +98,7 @@
           </div>
         </div>
         <div class="speaker-list__listing col-md-6">
-          <img src="assets/img/speaker-01.png" alt="speaker-img" class="speaker-list__img">
+          <img class="speaker-list__img" src="assets/img/speaker-01.png" alt="speaker-img">
           <div class="speaker-list__details">
             <h4 class="speaker-list__heading">Speaker Name</h4>
             <h5 class="speaker-list__company">Company</h5>
@@ -104,7 +106,7 @@
           </div>
         </div>
         <div class="speaker-list__listing col-md-6">
-          <img src="assets/img/speaker-01.png" alt="speaker-img" class="speaker-list__img">
+          <img class="speaker-list__img" src="assets/img/speaker-01.png" alt="speaker-img">
           <div class="speaker-list__details">
             <h4 class="speaker-list__heading">Speaker Name</h4>
             <h5 class="speaker-list__company">Company</h5>
@@ -112,60 +114,72 @@
           </div>
         </div>
       </div>
-      <div class="cta--wrapper">
-        <a href="#" class="btn-secondary">view all speakers</a>
+      <div class="cta">
+        <a class="btn-secondary" href="#">view all speakers</a>
       </div>
     </div><!-- end container -->
   </section>
-  <section class="block events--wrapper row">
+  <section class="block events">
     <div class="container">
-      <h2 class="block__heading">upcoming events</h2>
-      <div class="col-md-6">
-        <div class="js-event-slider event-slider--wrapper">
-          <div class="event-slider__slide">
-            <img class="event-slider__img" src="assets/img/slide-01.png" alt="slide-img">
-          </div>
-          <div class="event-slider__slide">
-            <img class="event-slider__img" src="assets/img/slide-02.png" alt="slide-img">
+      <div class="row">
+        <div class="events-header">
+          <h2 class="events-header__heading">upcoming events</h2>
+        </div>
+        <div class="col-md-6">
+          <div class="js-events-slider events-slider">
+            <div class="events-slider__slide">
+              <img class="events-slider__img" src="assets/img/slide-01.png" alt="slide-img">
+            </div>
+            <div class="events-slider__slide">
+              <img class="events-slider__img" src="assets/img/slide-02.png" alt="slide-img">
+            </div>
           </div>
         </div>
+        <div class="col-md-6">
+          <ul class="show-list">
+            <li class="show-list__listing">
+              <div class="show-list__date" role="moneyshow">
+                <p class="show-list__month">December</p>
+                <p class="show-list__day">14</p>
+              </div>
+              <div class="show-list__details">
+                <h4 class="show-list__title">world moneyshow las vegas</h4>
+                <p class="show-list__info">December 14 - 21, 2015</p>
+                <p class="show-list__info">Caesar’s Palace Convention Center</p>
+              </div>
+            </li>
+            <li class="show-list__listing">
+              <div class="show-list__date" role="moneyshow">
+                <p class="show-list__month">November</p>
+                <p class="show-list__day">21</p>
+              </div>
+              <div class="show-list__details">
+                <h4 class="show-list__title">world moneyshow toronto</h4>
+                <p class="show-list__info">December 14 - 21, 2015</p>
+                <p class="show-list__info">Caesar’s Palace Convention Center</p>
+              </div>
+            </li>
+            <li class="show-list__listing">
+              <div class="show-list__date" role="traders">
+                <p class="show-list__month">March</p>
+                <p class="show-list__day">09</p>
+              </div>
+              <div class="show-list__details">
+                <h4 class="show-list__title">world moneyshow toronto</h4>
+                <p class="show-list__info">December 14 - 21, 2015</p>
+                <p class="show-list__info">Caesar’s Palace Convention Center</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="col-md-6">
-        <ul class="show-list">
-          <li class="show-list__listing">
-            <div class="show-list__date" role="moneyshow">
-              <p class="show-list__month">December</p>
-              <p class="show-list__day">14</p>
-            </div>
-            <div class="show-list__details">
-              <h4 class="show-list__title">world moneyshow las vegas</h4>
-              <p class="show-list__info">December 14 - 21, 2015</p>
-              <p class="show-list__info">Caesar’s Palace Convention Center</p>
-            </div>
-          </li>
-          <li class="show-list__listing">
-            <div class="show-list__date" role="moneyshow">
-              <p class="show-list__month">November</p>
-              <p class="show-list__day">21</p>
-            </div>
-            <div class="show-list__details">
-              <h4 class="show-list__title">world moneyshow toronto</h4>
-              <p class="show-list__info">December 14 - 21, 2015</p>
-              <p class="show-list__info">Caesar’s Palace Convention Center</p>
-            </div>
-          </li>
-          <li class="show-list__listing">
-            <div class="show-list__date" role="traders">
-              <p class="show-list__month">March</p>
-              <p class="show-list__day">09</p>
-            </div>
-            <div class="show-list__details">
-              <h4 class="show-list__title">world moneyshow toronto</h4>
-              <p class="show-list__info">December 14 - 21, 2015</p>
-              <p class="show-list__info">Caesar’s Palace Convention Center</p>
-            </div>
-          </li>
-        </ul>
+    </div>
+  </section>
+  <section class="block sponsors">
+    <div class="container">
+      <div class="sponsors-header">
+        <h2 class="sponsors-header__heading">meet the sponsors</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem repellendus corrupti facere commodi ipsa ipsum reprehenderit libero exercitationem accusamus officiis officia asperiores, dolorum voluptatum, quibusdam illum amet laborum similique facilis!</p>
       </div>
     </div>
   </section>
@@ -173,7 +187,7 @@
   <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
   <script type="text/javascript">
     $(document).ready(function(){
-      $('.js-event-slider').slick({
+      $('.js-events-slider').slick({
         autoplay: true,
         dots: true,
         arrows: false

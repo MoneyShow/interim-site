@@ -1,4 +1,4 @@
-.about__img--wrapper {
+.about-info__img--wrapper {
   $border-width: 15px;
 
   border-radius: 999px;
@@ -11,26 +11,26 @@
   box-shadow: 0px 0px 50px rgba(0,0,0,0.3);
 }
 
-.about__img {
+.about-info__img {
   @include centerHorizontal();
 
   max-width: none;
 }
 
-.about__header {
+.about-header {
   margin-bottom: 2rem;
 }
 
-.about__heading {
+.about-header__heading {
   margin-bottom: 2rem;
 }
 
-.about__show-details {
+.about-header__show-details {
   padding-left: 1rem;
   border-left: 4px solid $blue;
 }
 
-.about__date {
+.about-header__date {
   margin-bottom: 0;
 }
 

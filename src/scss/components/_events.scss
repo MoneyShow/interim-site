@@ -1,13 +1,17 @@
-.events--wrapper {
+.events {
   background: url('../img/events-bg.png') $white no-repeat top center;
 }
 
-.event-slider--wrapper {
+.events-header__heading {
+  text-align: center;
+}
+
+.events-slider--wrapper {
   border: 10px solid $white;
   box-shadow: 0px 0px 50px rgba(0,0,0,0.3);
 }
 
-.event-slider__img {
+.events-slider__img {
   width: 100%;
 }
 
